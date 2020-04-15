@@ -27,7 +27,7 @@ Zendesk::widget('xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', true);
 
 ## Methods:
 
-- ```Gtm::widget($key = "", $enabled = false)```
+- ```Zendesk::widget($key = "", $enabled = false)```
 
 ## ```widget``` Method
 #### Description
