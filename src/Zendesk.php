@@ -25,7 +25,7 @@ class Zendesk {
 	public static function widget($key = "", $enabled = false)
 	{
 		$output = "<!-- Start of Zendesk Widget script -->\r\n";
-		$output .= sprintf("<script id='ze-snippet' src='%s'></script>\r\n", $key);
+		$output .= sprintf("<script id='ze-snippet' src='https://static.zdassets.com/ekr/snippet.js?key=%s'></script>\r\n", $key);
 		$output .= "<!-- End of Zendesk Widget script -->\r\n";
 
 		if (!empty($key) && $enabled) {
